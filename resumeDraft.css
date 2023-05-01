@@ -1,0 +1,124 @@
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:60px;
+    width: 98%;
+    background-color: rgb(255, 120, 203);
+    margin-bottom: 10px
+    }
+
+#resume{
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #ffffff;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #ffffff
+}
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    height: auto;
+    width: 99%;
+    background-color: #d4c1ca;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #3f3f3f;
+    }
+  
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: rgb(255, 120, 203);
+    }
+    
+h3
+{
+    text-decoration: underline;
+    text-shadow: 4px 4px 5px rgb(26, 28, 31);
+    font-family: fantasy;
+    }
+
+li{
+    text-decoration: underline;
+}
+
+#university-name
+{
+    height:2px;
+    text-decoration:underline;
+    color: rgb(255, 120, 203);
+    }
+
+#school-name
+{
+    height:2px;
+    text-decoration:underline;
+    color: rgb(255, 120, 203);
+    }
+
+.prj span {
+        font-weight: bold;
+        color: rgb(255, 120, 203);
+    }
+
+.lng span {
+    font-weight: bold;
+    color: rgb(255, 120, 203);
+    }
+
+    @media (max-width: 575.98px) {
+
+        header{
+            font-size: 18px;
+        }
+
+        .lng{
+            font-size: 12px;
+        }
+
+        .prj{
+            font-size: 12px;
+        }
+        
+    }
+
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+
+        header{
+            font-size: 20px;
+        }
+        .lng{
+            font-size: 15px;
+        }
+
+        .prj{
+            font-size: 15px;
+        }
+        
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        header{
+            font-size: 25px;
+        }
+        .lng{
+            font-size: 20px;
+        }
+
+        .prj{
+            font-size: 20px;
+        }
+        
+    }
